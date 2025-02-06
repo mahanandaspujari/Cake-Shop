@@ -1,0 +1,709 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.parent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2B2825;
+    height: 60px;
+    padding: 10px;
+    position: sticky;
+    top: 0px;
+}
+.logo{
+    /* height: 90px; */
+    margin: 0 auto;
+    color: white;
+    font-size: 18px;
+    font-weight:800;
+    display: flex;
+    gap: 10px;
+}
+.head1{display: none;}
+.head2{display: none;}
+.email{display: none;}
+.phone{display: none;}
+.menu{
+    border: 1px solid gray;
+    height: 20px;
+    padding: 10px;
+    /* margin: 10px; */
+}
+.navbar{
+    display: none;
+}
+
+.home{
+    background-image: url(../Images/Background/home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    /* width: 00px; */
+    height: 550px;
+}
+ .content{
+    color: white;
+    /* padding: 50px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* position: relative;
+    top: 50px; */
+    gap: 30px;
+    padding-top: 100px;
+}
+.super{
+    font-family: "Pacifico",cursive;
+    color: #E88F2A;
+    font-size: 30px;
+}
+.content h1{
+    font-size: 40px;
+}
+.other{
+    display: flex;
+    gap: 30px;
+    /* height: 80px; */
+    width: 300px;
+    /* justify-content: space-around; */
+    
+}
+.button{
+    background-color: #E88F2A;
+    padding: 10px;
+    /* height: 50px; */
+    width: 100px;
+    text-align: center;
+}
+.button button{
+    background-color: #E88F2A;
+    border: 1px solid white;
+    padding: 10px;
+    /* width: 140px; */
+    color: white;
+    font-size: 15px;
+}
+.player{
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+} 
+.about{
+    text-align: center;
+    padding: 30px;
+    margin-top: 40px;
+}
+.aboutus{
+    font-size: 30px;
+    font-family: "Pacifico",cursive;
+    color: #E88F2A;
+}
+.about h1{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.cake img{
+    height:400px; 
+    width:100%;
+}
+.info1{
+    text-align: left;
+    margin-top: 40px;
+}
+.info2{
+    text-align: start;
+}
+.infodiv1{
+    background-color:#E88F2A ;
+    width: 70px;
+    padding: 10px;
+}
+.infodiv1 img{
+    background-color: #E88F2A;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+.counts{
+    background-image: url(../Images/Background/bg.jpg);
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    padding: 20px;
+    gap: 30px;
+}
+.count1{
+    display: flex;
+    gap: 30px;
+    width: 280px;  
+}
+.count1 h4{
+    color: #E88F2A;
+    text-transform: uppercase;
+}
+.count1 h1{
+    font-size: 45px;
+}
+.ourmenu{
+    text-align: center;
+    padding: 20px;
+}
+.ourmenu h2{
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 800;
+}
+.menuprice{
+    font-family: "Pacifico",cursive;
+    color: #E88F2A;
+    font-size: 30px;
+}
+.menudiv1{
+    background-color: #2B2825;
+    width: 270px;
+    height: 120px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.menubuttons{
+    /* background-color:#E88F2A; */
+    margin: 0 auto;
+    border: 1px solid white;
+    width: 83%;
+    /* height: 60%; */
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    
+    /* text-align: center; */
+}
+.birthday{
+    background-color: #E88F2A;
+}
+.wedding{
+    background-color: #2B2825;
+}
+.custom{
+    background-color: #2B2825;
+}
+.menubuttons button{
+    border: 1px solid #2B2825;
+    /* padding: 10px; */
+    font-size: 18px;
+    height: 30px;
+    width: 100px;
+    color: white;
+    cursor: pointer;
+}
+.one{
+    display: flex;
+    justify-content: center;
+}
+.cakeimg{
+    width: 47%;
+    background-color: #2B2825;
+    color: white;
+    height: 120px;
+    padding-bottom: 10px;
+}
+.cakeimg h2{
+    color: #E88F2A;
+}
+.cakeinfo{
+    width: 40%;
+    text-align: start;
+    background-color: #FAF3EB;
+    padding: 10px;
+}
+.cakeinfo h4{
+    text-transform: uppercase;
+}
+.cakeinfo div{
+    border: 2px solid white;
+    background-color: #FAF3EB;
+    padding: 0px 10px 0px 10px;
+    font-size: 18px;
+    /* justify-content: center; */
+}
+.section1{
+    background-color: #2B2825;
+    height: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+.first{
+    /* margin: 70px; */
+    background-color: #E88F2A;
+    height: 75%;
+    font-size: 18px;
+    width: 90%;
+}
+.second{
+    width: 80%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.first div{
+    margin: 10px;
+    border: 1px solid white;
+    text-align: center;
+    padding: 30px;
+}
+.first button{
+    background-color: #E88F2A;
+    border: 0px solid #E88F2A;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.first p{
+    color: white;
+}
+.order{
+    background-color: #E88F2A;
+    padding: 10px;
+    width: 70%;
+}
+.second h2{
+    color: white;
+}
+.order button{
+    background-color: #E88F2A;
+    padding: 10px;
+    color: white;
+    width: 100%;
+    border: 1px solid white;
+}
+.chefs{
+    text-align: center;
+}
+.chefs h1,h2{
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.teammembers{
+    font-family: "Pacifico",cursive;
+    color: #E88F2A;
+    font-size: 30px;
+}
+.teams{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.team1{
+    background-color: #2B2825;
+    padding: 10px;
+    /* width: 80%; */
+}
+.team1 div{
+    border: 1px solid white;
+    padding: 10px;
+}
+.team1 h2{
+    color: #E88F2A;
+}
+.team h3{
+    color: white;
+}
+.packs{
+    background-image: url(../Images/Background/offer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+}
+.special{
+    font-family: "Pacifico",cursive;
+    color: #E88F2A;
+    font-size: 30px;
+}
+.packsinfo{
+    background-color: #2B2825;
+    height: 100%;
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding: 0px 20px 0px 20px;
+    color: white;
+    text-align: center;
+}
+.packsinfo h3{
+    color: #E88F2A;
+    font-size: 20px;
+}
+.packsinfo h1{
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.packsinfo p{
+    font-size: 19px;
+}
+.buttons{
+    margin: 0 auto;
+}
+.shop{
+    padding: 10px;
+    background-color: #E88F2A;
+    width: 130px;
+}
+.shop button{
+    width: 100%;
+    background-color: #E88F2A;
+    padding: 10px;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+}
+.shop button:hover{
+    color: black;
+}
+.read{
+    padding: 10px;
+    background-color:#2B2825;
+    width: 130px;
+}
+.read button{
+    width: 100%;
+    background-color:#2B2825;
+    padding: 10px;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.footer{
+    /* background-color:#2B2825; */
+    background-image: url(../Images/Background/bg.jpg);
+    opacity: 0.9;
+    height: 100%;
+    padding: 20px;
+}
+.cakezone{
+    background-color: #E88F2A;
+        /* height: 90%; */
+    padding: 10px;
+    color: white;
+}
+.cakezone div{
+    height: 75%;
+    border: 1px solid white;
+    text-align: center;
+    padding: 15px;
+}
+.getintouch{
+    color:#E88F2A;
+    padding: 10px;
+    text-align: left;
+}
+.getintouch li{
+    color: #FAF3EB;
+    font-size: 18px;
+    list-style-type: none;
+}
+.list1{
+    list-style-image: url(../Images/Illustration/map.PNG);
+    list-style-position: inside;
+}
+.list2{
+    list-style-image: url(../Images/Illustration/email1.PNG);
+    list-style-position: inside;
+}
+.list3{
+    list-style-image: url(../Images/Illustration/phone.PNG);
+    list-style-position: inside;
+}
+
+.quicklinks{
+    color:#E88F2A;
+    padding: 10px;
+    text-align: left;
+}
+.quicklinks ul{
+    line-height: 30px;
+}
+.quicklinks li{
+    color: #FAF3EB;
+    font-size: 18px;
+    list-style-type: none;
+    list-style-image: url(../Images/Illustration/arrow.PNG);
+    list-style-position: inside;
+}
+.quicklinks a{
+    text-decoration: none;
+    color: white;
+}
+.newslatter{
+    color:#E88F2A;
+    padding: 10px;
+    text-align: left;
+}
+.newslatter p{
+    color: white;
+}
+.newslatter input{
+    padding: 10px;
+    height: 20px;
+    width: 150px;
+    border: 1px solid #2B2825;
+}
+.newslatter button{
+    padding: 10px;
+    height: 40px;
+    background-color: #E88F2A;
+    border: 1px solid #2B2825;
+}
+
+.foot{
+    background-color: black;
+    padding: 20px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+@media(min-width:768px){
+
+    .logo{
+       position: absolute;
+        top: 25px;
+        left: 20px;
+    }
+    .counts{
+        height: 300px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .info2{
+        display: flex;
+    }
+    .menudiv1{
+        width: 390px;
+        height: 90px;
+    }
+    .menubuttons{
+        height: 50px;
+        width: 90%;
+        align-items: center;
+    }
+    .cakeimg{
+        width: 19%;
+    }
+    .cakeinfo{
+        width: 70%;
+    }
+    .cakeinfo div{
+        /* height: 100%; */
+        padding: 20px;
+    }
+    .home h1{
+        font-size: 50px;
+    }
+    .home h3{
+        font-size: 30px;
+    }
+    .section1{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .first{
+        width: 45%;
+    }
+    .second{
+        width: 45%;
+    }
+    .order{
+        width: 40%;
+    }
+    .teams{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        /* align-items: start; */
+    }
+    .team1{
+        width: 310px;
+        margin: 10px;
+        /* height: 200px; */
+    }
+    .team img{
+        width: 330px;
+        height: 330px;
+    }
+    .buttons{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    .packs{
+        height: 400px;
+    }
+    .footer{
+        display: flex;
+        gap: 20px;
+        height: 600px;
+        align-items: center;
+        justify-content: center;
+    }
+    .cakezone{
+            width: 300px;
+            height: 90%;
+        }
+    .cakezone div
+        {
+            padding-top: 100px;
+        }
+}
+
+
+@media(min-width:992px){
+    .menu{
+        display: none;
+    }
+    .parent{
+        background-color: #FAF3EB;
+        height: 48px;
+        justify-content: space-around;
+    }
+    .head3{
+        background-color: #E88F2A;
+        width: 300px;
+        padding: 10px;
+
+    }
+    .logo{
+        position: relative;
+        top: 0;
+        left: 0;
+        background-color: #E88F2A;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid white;
+        padding: 8px;
+    }
+    
+    .head1{display: block;}
+    .head2{
+        display: block;
+    }
+    .email{display: block;
+    }
+    .phone{
+        display: block;
+
+    }
+    .navbar{
+        background-color: #2B2825;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70px;
+        position: sticky;
+        top: 0px;
+        width: 100%;
+    }
+    .navdata{
+        /* width: 100%; */
+        display: flex;
+        gap: 30px;
+
+    }
+    .navdata a{
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .navdata a:hover{
+        color: #E88F2A;
+    }
+    .home{
+        height: 550px;
+        padding: 40px;
+    }
+    .content{
+        align-items: start;
+    }
+    .about1{
+        display: flex;
+        gap: 50px;
+    }
+    .counts{
+        flex-wrap: nowrap;
+        height: 250px;
+        /* .count1{
+            background-color: aqua;
+        } */
+    }
+    .cake img{
+        height:500px; 
+        width:350px;
+    }
+    .info{
+        width: 80%;
+    }
+    .cakelist{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; 
+    }
+    .one{
+        width: 49%;
+    }
+    .section1{
+        justify-content: center;
+    }
+    .first{
+        width: 30%;
+    }
+    .second{
+        width: 50%;
+    }
+    .order{
+            width: 30%;
+    }
+    .team1{
+        width: 260px;
+        /* height: 200px; */
+    }
+    .team img{
+        width: 280px;
+        height: 290px;
+    }
+    .footer{
+        height: 600px;
+        margin: 0px;
+    }
+     .getintouch{
+        width: 200px;
+     }
+     .quicklinks{
+        width: 250px;
+     }
+    .contacts{
+        display: flex;
+    }
+}
